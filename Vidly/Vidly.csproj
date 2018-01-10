@@ -173,6 +173,10 @@
     <Compile Include="Migrations\201801101520282_AddMemberShipandSubscribed.Designer.cs">
       <DependentUpon>201801101520282_AddMemberShipandSubscribed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801101530123_PopulateMemberShipTypes.cs" />
+    <Compile Include="Migrations\201801101530123_PopulateMemberShipTypes.Designer.cs">
+      <DependentUpon>201801101530123_PopulateMemberShipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -263,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801101520282_AddMemberShipandSubscribed.resx">
       <DependentUpon>201801101520282_AddMemberShipandSubscribed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801101530123_PopulateMemberShipTypes.resx">
+      <DependentUpon>201801101530123_PopulateMemberShipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
