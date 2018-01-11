@@ -206,6 +206,14 @@
     <Compile Include="Migrations\201801110828208_updatebirthdaterecord.Designer.cs">
       <DependentUpon>201801110828208_updatebirthdaterecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801110953068_AddFieldsMoviesandGenres.cs" />
+    <Compile Include="Migrations\201801110953068_AddFieldsMoviesandGenres.Designer.cs">
+      <DependentUpon>201801110953068_AddFieldsMoviesandGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801110953516_GenresSeeding.cs" />
+    <Compile Include="Migrations\201801110953516_GenresSeeding.Designer.cs">
+      <DependentUpon>201801110953516_GenresSeeding.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -323,6 +331,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801110828208_updatebirthdaterecord.resx">
       <DependentUpon>201801110828208_updatebirthdaterecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110953068_AddFieldsMoviesandGenres.resx">
+      <DependentUpon>201801110953068_AddFieldsMoviesandGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110953516_GenresSeeding.resx">
+      <DependentUpon>201801110953516_GenresSeeding.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
