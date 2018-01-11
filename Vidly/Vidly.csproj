@@ -190,6 +190,22 @@
     <Compile Include="Migrations\201801110753203_UpdateMemberShipTypesSeeding.Designer.cs">
       <DependentUpon>201801110753203_UpdateMemberShipTypesSeeding.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801110804444_AddBirthDateonCustomer.cs" />
+    <Compile Include="Migrations\201801110804444_AddBirthDateonCustomer.Designer.cs">
+      <DependentUpon>201801110804444_AddBirthDateonCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801110806179_CustomerBirthDateSeeding.cs" />
+    <Compile Include="Migrations\201801110806179_CustomerBirthDateSeeding.Designer.cs">
+      <DependentUpon>201801110806179_CustomerBirthDateSeeding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801110826370_addnulltobitthdate.cs" />
+    <Compile Include="Migrations\201801110826370_addnulltobitthdate.Designer.cs">
+      <DependentUpon>201801110826370_addnulltobitthdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801110828208_updatebirthdaterecord.cs" />
+    <Compile Include="Migrations\201801110828208_updatebirthdaterecord.Designer.cs">
+      <DependentUpon>201801110828208_updatebirthdaterecord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -294,6 +310,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801110753203_UpdateMemberShipTypesSeeding.resx">
       <DependentUpon>201801110753203_UpdateMemberShipTypesSeeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110804444_AddBirthDateonCustomer.resx">
+      <DependentUpon>201801110804444_AddBirthDateonCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110806179_CustomerBirthDateSeeding.resx">
+      <DependentUpon>201801110806179_CustomerBirthDateSeeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110826370_addnulltobitthdate.resx">
+      <DependentUpon>201801110826370_addnulltobitthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110828208_updatebirthdaterecord.resx">
+      <DependentUpon>201801110828208_updatebirthdaterecord.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
