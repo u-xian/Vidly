@@ -182,6 +182,14 @@
     <Compile Include="Migrations\201801101542509_AddAnnotations.Designer.cs">
       <DependentUpon>201801101542509_AddAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801110750171_AddNameOnMemberShipType.cs" />
+    <Compile Include="Migrations\201801110750171_AddNameOnMemberShipType.Designer.cs">
+      <DependentUpon>201801110750171_AddNameOnMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801110753203_UpdateMemberShipTypesSeeding.cs" />
+    <Compile Include="Migrations\201801110753203_UpdateMemberShipTypesSeeding.Designer.cs">
+      <DependentUpon>201801110753203_UpdateMemberShipTypesSeeding.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -280,6 +288,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801101542509_AddAnnotations.resx">
       <DependentUpon>201801101542509_AddAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110750171_AddNameOnMemberShipType.resx">
+      <DependentUpon>201801110750171_AddNameOnMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801110753203_UpdateMemberShipTypesSeeding.resx">
+      <DependentUpon>201801110753203_UpdateMemberShipTypesSeeding.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
