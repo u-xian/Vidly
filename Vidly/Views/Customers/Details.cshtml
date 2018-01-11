@@ -9,7 +9,18 @@
  
 
 <ul class="list-group">
-        <li class="list-group-item">@Model.Name</li>
-        <li class="list-group-item">@(!Model.birthdate.Equals("") ? Model.birthdate.ToString() :"")</li>
+    <li class="list-group-item">@Model.Name</li>
+    <li class="list-group-item">
+        @if (Model.birthdate.Value.ToShortDateString() == "1/1/1900")
+        {
+            <span></span>
+        }
+        else
+        {
+            <span>@Model.birthdate.Value.ToShortDateString()</span>
+        }
+    </li>
 </ul>
+
+
 
