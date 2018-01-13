@@ -214,6 +214,14 @@
     <Compile Include="Migrations\201801110953516_GenresSeeding.Designer.cs">
       <DependentUpon>201801110953516_GenresSeeding.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801120939385_RemoveRequiredOnGenre.cs" />
+    <Compile Include="Migrations\201801120939385_RemoveRequiredOnGenre.Designer.cs">
+      <DependentUpon>201801120939385_RemoveRequiredOnGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801120947276_RemoveRequiredOnGenretypes.cs" />
+    <Compile Include="Migrations\201801120947276_RemoveRequiredOnGenretypes.Designer.cs">
+      <DependentUpon>201801120947276_RemoveRequiredOnGenretypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -342,6 +350,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801110953516_GenresSeeding.resx">
       <DependentUpon>201801110953516_GenresSeeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801120939385_RemoveRequiredOnGenre.resx">
+      <DependentUpon>201801120939385_RemoveRequiredOnGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801120947276_RemoveRequiredOnGenretypes.resx">
+      <DependentUpon>201801120947276_RemoveRequiredOnGenretypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
