@@ -13,7 +13,7 @@
    
        var error_class = (ViewData.ModelState.IsValid) ? "" : "has-error";        
     
-     
+     @Html.ValidationSummary()
     <div class="form-group @error_class">
         @Html.LabelFor(m => m.Customer.Name, new { @class = "col-lg-2 control-label" })
         <div class="col-lg-10">
