@@ -9,9 +9,7 @@
 
 @using (Html.BeginForm("Save", "Customers", FormMethod.Post, new { @class = "form-horizontal" }))
 {
-  
-   
-       var error_class = (ViewData.ModelState.IsValid) ? "" : "has-error";        
+     var error_class = (ViewData.ModelState.IsValid) ? "" : "has-error";        
     
      @Html.ValidationSummary(true,"Please fix these errors")
     <div class="form-group @error_class">
@@ -53,9 +51,6 @@
     </div>
 }
 
-@section scripts
-{
-    @Scripts.Render("~/bundles/jqueryval")
-}
+
 
 
