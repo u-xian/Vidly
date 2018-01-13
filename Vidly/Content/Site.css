@@ -27,3 +27,8 @@ textarea {
     color : red;
 }
 
+.validation-summary-errors {
+    color : red;
+    font-size: large;
+}
+
