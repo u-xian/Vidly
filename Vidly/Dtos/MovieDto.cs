@@ -23,6 +23,8 @@ namespace Vidly.Dtos
         [Display(Name = "Number in Stock")]
         public int NumberStock { get; set; }
 
+        public GenreDto Genres { get; set; }
+
 
         [Required]
         [Display(Name = "Genre")]

@@ -17,12 +17,11 @@ namespace Vidly.Dtos
 
         public bool isSubscribedToNewsLetter { get; set; }
 
-        [Display(Name = "MemberShip Type")]
         public byte MembershipTypeId { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
 
-        [Display(Name = "Date of Birth")]
-        [Min18YearsIfAMember]
+        //[Min18YearsIfAMember]
         public DateTime? birthdate { get; set; }
     }
 }
