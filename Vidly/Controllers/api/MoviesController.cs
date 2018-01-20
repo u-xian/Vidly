@@ -23,7 +23,10 @@ namespace Vidly.Controllers.api
         //GET /api/movies
         public IEnumerable<Movie> GetMovies()
         {
-            return _context.Movies.Include(m => m.GenreTypes).ToList();
+            var movie = new List<Movie> { };
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return _context.Movies.Include(m => m.GenreTypes).ToList();
+            return movie;
         }
 
         //GET /api/movies/1
